@@ -8,7 +8,7 @@ const Home = () => {
         <h1 className="text-5xl font-extrabold drop-shadow-lg sm:text-4xl">
           SUSHAN TAMANG
         </h1>
-        <p className="text-lg sm:text-base text-gray-200 font-medium mt-6 backdrop-blur-sm bg-white/10 p-4 rounded-lg shadow-inner">
+        <p className="text-lg sm:text-base text-gray-200 font-medium mt-6 backdrop-blur-sm bg-black/20 p-7 rounded-lg shadow-inner">
           SUSHAN is a passionate web developer with a strong foundation in HTML, CSS, and JavaScript.
         </p>
         <a 
