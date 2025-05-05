@@ -1,3 +1,4 @@
+import React from "react";
 import { createBrowserRouter,Link,RouterProvider,} from "react-router";
 import Home from "./pages/Home";
 import About from "./pages/About";
@@ -11,8 +12,9 @@ const router =createBrowserRouter([
     element:(
       <>
       <Header />
-      <Api/>
+      
       <Home />
+      <Api/>
       </>
     ),
   },
