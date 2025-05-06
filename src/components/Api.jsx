@@ -5,6 +5,7 @@ function Home() {
   const [Loading, setLoading] = useState(false);
   async function fetchData() {
     try {
+
       setLoading(true);
       const raw = await fetch("https://fakestoreapi.com/users");
       if (!raw.ok) {
@@ -44,9 +45,8 @@ function Home() {
           {dataFromAPI.map((item, index) => (
             <tr
               key={item.id}
-              className={`border-b border-gray-300 ${
-                index % 2 === 0 ? "bg-gray-100" : "bg-white"
-              } hover:bg-gray-200 transition-all`}
+              className={`border-b border-gray-300 ${index % 2 === 0 ? "bg-gray-100" : "bg-white"
+                } hover:bg-gray-200 transition-all`}
             >
               <td className="p-3">{item.id}</td>
               <td className="p-3">{item.username}</td>
